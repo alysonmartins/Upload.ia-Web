@@ -14,7 +14,7 @@ export function App() {
 
           <div className="flex items-center gap-3">
           <span className="text-sm text-muted-foreground">
-            Desenvolvido con ♥️ by ProExWeb.com
+            Desenvolvido con ♥️ by Jack
           </span>
 
           <Separator orientation="vertical" className="h-6" />
