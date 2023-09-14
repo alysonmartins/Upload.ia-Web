@@ -118,7 +118,7 @@ export function VideoInputForm (props: VideoInputFormProps) {
 
     setStatus('generating')
 
-    // await api.post(`/videos/${videoId}/transcription`, { prompt,})
+    await api.post(`/videos/${videoId}/transcription`, { prompt,})
 
     setStatus('success')
 
